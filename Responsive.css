@@ -1,0 +1,379 @@
+@media (max-width: 576px){
+    nav{
+        display: inline-flex;
+
+    }
+    .man h1{
+        font-size: 27px;
+        position: relative;
+        animation: drop-text 5s ease forwards,  bounce 0.5s ease-in-out forwards;
+    }
+
+    @keyframes drop-text {
+        0%{
+            top: -100px;
+        }
+        20%{
+            top: calc(11vh - 50px);
+        }
+    }
+    @keyframes bounce {
+        0%, 100%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-20px);
+        }
+    }
+    .man p{
+            font-size: 3px;
+            font-weight: 100;
+            letter-spacing: -2px;
+            display: flex;
+            
+          
+    }
+    .s .se .txt h2{
+        font-size: 19px;
+    }
+    .s .se .txt p{
+        font-size: 11px;
+    }
+
+   
+    main img{
+        width: 90px;
+        height: 190px;
+        position: relative;
+        top: 27px;
+        margin-top: 70px;
+    }
+
+    .na{
+        height: 14rem;
+    }
+
+    .s .se .txt{
+        font-size: 6px;
+        position: relative;
+        margin-top: -25px;
+        margin-left: 60px;
+    }
+    .s .se .txt p{
+        font-size: xx-small;
+    }
+    .s .se .seen img{
+        width: 110px;
+        height: 40vh;
+        
+    }
+    .key .keyin img{
+        width: 110px;
+        height: 40vh;
+    }
+    .key .keyt h2{
+            font-size: 29px;
+            position: relative;
+            margin-top: -60px;
+    }
+    .key .keyt p{
+        font-size: 10px;
+    }
+    /* pods section */
+    .podss{
+        height: 16rem;
+    }
+    .podss .ipods .pod img{
+        width: 110px;
+        height: 30vh;
+
+    }
+    .podss .ipods .pods p{
+        font-size: 9px;
+        
+    } 
+    .podss .ipods .pods .p2{
+        top: -15px;
+        position: relative;
+    }
+    .podss .podlogo img{
+        width: 20px;
+        position: relative;
+        margin-top: 50px;
+        
+        
+    }
+    .podss .podlogo {
+        margin-right: 120px;
+        position: relative;
+        top: -87px;
+        right: -10px;
+    }
+    .podss .arrow {
+        position: relative;
+        margin-top: 90px;
+        left: 60px;
+    }
+
+main h1{
+    font-size: 20px;
+    position: relative;
+    right: 39px;
+}
+main p{
+        font-size: 1px;
+        position: relative;
+        right: 35px;
+      animation: alternate-reverse;
+
+}
+.stx .parent .navbar{
+    display: none;
+}
+.stx .parent .btn{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-left: 200px;
+    
+}
+.stx .parent .btn2{
+    width: 75px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.care .caring h1{
+    letter-spacing: 0cap;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.care .caring p{
+    font-size: 13px;
+    position: relative;
+    left: 16px;
+}
+.carem {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    
+}
+.carem img{
+    border-radius: 30px;
+    
+
+    
+}
+/* care img1 */
+.caretext .caret{
+    position: relative;
+    top: -39rem;
+    left: 35px;
+    width: 10px;
+    height: 100px;
+    color: white;
+}
+.caretext .caret h3{
+    font-size: 15px;
+    letter-spacing: 5px;
+
+}
+.caretext .caret p{
+    background-color: silver;
+    width: 50px;
+    position: relative;
+    left: 13rem;
+    margin-top: -5rem;
+}
+
+/* care img2 */
+.carete {
+    position: relative;
+    top: -30rem;
+    left: 3px;
+    width: 10px;
+    height: 100px;
+    color: white;
+}
+.carete  h3{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
+}
+
+.carete p{
+    background-color: silver;
+    width: 50px;
+    position: relative;
+    left: 12rem;
+    margin-top: -5rem;
+}
+
+/* care img3 */
+ .caretex{
+    position: relative;
+    top: -12rem;
+    right: 40px;
+    background: none;
+    color: black;
+    height: 100px;
+ }
+
+
+.fot h2{
+    text-align: center;
+    margin-top: -28px;
+}
+.fot p{
+    position: relative;
+    margin-top: 30px;
+    top: -25px;
+}
+
+.pa h1{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 15px;
+}
+.pa .btn6{
+    margin-top: 30px ;
+    right: 170px;
+}
+
+.logo2 .stay{
+    position: relative;
+    left: -15.5rem; 
+     top: 13rem;
+    
+}
+.search input{
+    position: relative;
+    left: -1.9rem; 
+     top: 10rem;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 768px){
+    .stx .navbar{
+        display: none;
+
+    }
+    main h1{
+        font-size: 25px;
+    }
+    .stx .parent .btn{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        margin-left: 190px;
+        font-size: 2px;
+    }
+    main p{
+            font-size: 9px;
+            letter-spacing: -1px;
+            display: flex;
+            flex-wrap: wrap;
+    }
+    main img{
+        width: 90px;
+        height: 150px;
+        position: relative;
+        top: 90px;
+        margin-top: 70px;
+    }
+
+    main .na{
+        height: 20px;
+    }
+    .s .se .seen img{
+        width: 150px;
+        height: 50vh;
+        
+    }
+
+    .s .se .txt{
+        font-size: 10px;
+    }
+    .s .se .txt p{
+        font-size: xx-small;
+    }
+    /* .stx .parent .btn{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-left: 200px;
+        width: 50px;
+    } */
+    .care .caring h1{
+        letter-spacing: 0cap;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .care .caring p{
+        font-size: 13px;
+        position: relative;
+        left: 16px;
+    }
+    .carem {
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        
+    }
+    .carem img{
+        border-radius: 30px;
+        
+    
+        
+    }
+    /* care img1 */
+    .caretext .caret{
+        position: relative;
+        top: -39rem;
+        left: 35px;
+        width: 10px;
+        height: 100px;
+        color: white;
+    }
+    .caretext .caret h3{
+        font-size: 15px;
+        letter-spacing: 5px;
+    
+    }
+    .caretext .caret p{
+        background-color: silver;
+        width: 50px;
+        position: relative;
+        left: 13rem;
+        margin-top: -5rem;
+    }
+    
+    /* care img2 */
+    .carete {
+        position: relative;
+        top: -30rem;
+        left: 3px;
+        width: 10px;
+        height: 100px;
+        color: white;
+    }
+    .carete  h3{
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    
+    }
+    .carete p{
+        background-color: silver;
+        width: 50px;
+        position: relative;
+        left: 12rem;
+        margin-top: -5rem;
+    }
+}
